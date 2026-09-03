@@ -38,9 +38,11 @@ public class Estudiante {
     }
 
 
-
-    
-
+    public void mostrarInformacion() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Carrera: " + carrera);
+        System.out.println("Edad: " + edad);
+    }
 
 
 
